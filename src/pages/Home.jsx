@@ -2,7 +2,7 @@ import Carousel from '../components/Carousel.jsx'
 import { Link } from 'react-router-dom'
 
 const backgroundStyle = {
-  backgroundImage: "url('bg1.jpg')",
+  backgroundImage: "url('/bg1.jpg')",
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   minHeight: '100vh',
