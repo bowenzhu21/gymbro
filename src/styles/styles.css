@@ -37,6 +37,14 @@ nav{ display:flex; align-items:center; justify-content:space-between; height:64p
 .btn.primary{ background:var(--accent); border-color:var(--accent) }
 .btn.ghost{ background:transparent }
 
+/* Show brand text by default */
+.brand-text { display: inline; }
+
+/* Hide brand text on small screens */
+@media (max-width: 600px) {
+  .brand-text { display: none; }
+}
+
 /* IMPORTANT: only vertical padding here so container gutters are preserved */
 .hero{
   padding-top:64px;

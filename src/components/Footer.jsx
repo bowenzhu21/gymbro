@@ -14,7 +14,7 @@ export default function Footer(){
           />
           <strong>GymBro</strong>
         </div>
-        <div className="muted">© {new Date().getFullYear()} GymBro. All rights reserved.</div>
+        <div className="muted">© {new Date().getFullYear()} GymBro. Rights reserved.</div>
       </div>
     </footer>
   )
