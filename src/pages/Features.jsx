@@ -9,7 +9,7 @@ export default function Features() {
   ];
 
   const backgroundStyle = {
-    backgroundImage: "url('/bg3.jpg')",
+    backgroundImage: "url('bg3.jpg')",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     minHeight: '100vh',

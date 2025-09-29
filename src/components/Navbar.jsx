@@ -6,7 +6,7 @@ export default function Navbar(){
       <div className="container">
         <nav>
           <Link to="/" className="brand">
-            <img src="/logo.png" alt="Logo" style={{ height: '40px' }} />
+            <img src="logo.png" alt="Logo" style={{ height: '40px' }} />
             <span>GymBro</span>
           </Link>
           <div className="navlinks">

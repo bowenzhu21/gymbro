@@ -5,7 +5,7 @@ export default function Footer(){
         <div className="row" style={{ gap: 8 }}>
           {/* no filter here */}
           <img
-            src="/logo.png"
+            src="public/logo.png"
             alt="GymBro logo"
             width="20"
             height="20"

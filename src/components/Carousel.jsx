@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 
-const shots = ['/page1.png','/page2.png','/page3.png','/page4.png','/page5.png']
+const shots = ['public/page1.png','public/page2.png','public/page3.png','public/page4.png','public/page5.png']
 
 export default function Carousel(){
   const [idx, setIdx] = useState(0)
@@ -25,7 +25,7 @@ export default function Carousel(){
         </div>
       </div>
       <div className="mt-3">
-        <img src={shots[idx]} alt={`App screen ${idx+1}`} className="shot" />
+        <img src={shots[idx]} alt={`Screenshot ${idx+1}`} />
       </div>
     </div>
   )
